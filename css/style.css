@@ -29,6 +29,9 @@ body {
 header {
   background-color: white;
 }
+main {
+  background-color: white;
+}
 .header-top {
   position: fixed;
   top: 0;
@@ -150,9 +153,14 @@ header {
 }
 .helbiz_products a{
   text-decoration: none;
+  color: #2475C9;
+}
+.helbiz_products a:hover{
+  text-decoration: underline;
 }
 .container_1000.first_main{
   margin-top: 50px;
+  background-color: white;
 }
 .helbiz_products img:first-child{
   max-width: 20em;
