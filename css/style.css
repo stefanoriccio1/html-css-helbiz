@@ -141,4 +141,30 @@ header {
 /* main */
 .helbiz_products{
   text-align: center;
+  line-height: 35px;
+  background-color:#FAFAFA;
+  padding: 20px;
+}
+.helbiz_products p{
+  font-size: 2em;
+}
+.helbiz_products a{
+  text-decoration: none;
+}
+.container_1000.first_main{
+  margin-top: 50px;
+}
+.helbiz_products img:first-child{
+  max-width: 20em;
+}
+.product_img{
+  max-width: 200px;
+  margin-top: 20px;
+}
+.learn_more{
+  vertical-align: middle;
+  font-size: 1.5em;
+}
+.learn_more i{
+  margin-left: 3px;
 }
