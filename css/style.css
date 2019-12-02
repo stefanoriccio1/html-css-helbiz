@@ -13,6 +13,7 @@ body {
 }
 .container-fluid{
   margin-top: 50px;
+  position: relative;
 }
 .menu_inline {
   list-style: none;
@@ -196,4 +197,16 @@ main {
   height: 500px;
   background-size: cover;
   background-position-x: -200px;
+}
+
+.carousel_text{
+  max-width: 70%;
+  text-align: justify;
+}
+.carousel_text h2{
+  font-size: 4em;
+}
+.carousel_text h3{
+  font-size: 2em;
+  font-weight: semi-bold;
 }
