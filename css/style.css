@@ -179,3 +179,10 @@ main {
 .helbiz_products.HGO{
   margin-right: 40px;
 }
+
+@media screen and (max-width: 768px){
+.helbiz_products.HGO{
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+}
