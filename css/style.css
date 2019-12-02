@@ -11,6 +11,9 @@ body {
   max-width: 1000px;
   margin: 0 auto;
 }
+.container-fluid{
+  margin-top: 50px;
+}
 .menu_inline {
   list-style: none;
 }
@@ -159,8 +162,8 @@ main {
   text-decoration: underline;
 }
 .container_1000.first_main{
-  margin-top: 50px;
   background-color: white;
+  margin-top: 50px;
 }
 .helbiz_products img:first-child{
   max-width: 20em;
@@ -185,4 +188,12 @@ main {
   margin-right: auto;
   margin-bottom: 40px;
 }
+}
+/* secondo blocco main */
+
+.carousel_top{
+  background-image: url(../img/HelbizBanner.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position-x: -200px;
 }
